@@ -21,4 +21,5 @@ class PickleTests(unittest.TestCase):
                                  #copied from solution github
                                  #didnt know how to do teardown
         shutil.rmtree(self.path) #shutil.rmtree deletes a dir and all contents
+        print "Teardown ran..."
         
